@@ -10,7 +10,7 @@ const Header = () => {
             <div className="header-nav">
                 <div className="nav-center">
                 <a className="m-1 text-primary uppercase hover-grow"  href="/Home">Home</a>
-                <a className="m-1 text-primary uppercase hover-grow"  href="/#/About">About Me</a>
+                <a className="m-1 text-primary uppercase hover-grow"  href="reactportfolio/#/About">About Me</a>
                 <a className="m-1 text-primary uppercase hover-grow"  href="/#/ContactMe">Contact Me</a>
                 <a className="m-1 text-primary uppercase hover-grow"  href="/#/Work">My Work</a>
             </div>

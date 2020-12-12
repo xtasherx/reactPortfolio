@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
 import "cirrus-ui";
 import Home from "./Home";
 import ContactMe from "./ContactMe";
@@ -8,27 +8,28 @@ import Header from "./Header";
 import About from "./About";
 
 
+
 function App() {
   return (
-    <Router>
+    <HashRouter>
     <div>
       <Header />
       <Switch>
-        <Route exact path={["/", "/home"]}>
+        <HashRouter basename="/home">
           <Home />
-        </Route>
-        <Route exact path={ "/about"}>
+        </HashRouter>
+        <HashRouter basename="/about">
           <About />
-        </Route>
-        <Route exact path={"/work"}>
+        </HashRouter>
+        <HashRouter exact path={"/work"}>
           <Work />
-        </Route>
-        <Route exact path={"/contactme"}>
+        </HashRouter>
+        <HashRouter exact path={"/contactme"}>
           <ContactMe />
-        </Route>
+        </HashRouter>
       </Switch>
     </div>
-  </Router>
+  </HashRouter>
   )
 }
 

@@ -9,7 +9,7 @@ const Project = (props) => {
                 <div className="card-image" id ="cardB"><img src={proj.imgUrl} style={{"width": "350px", "height": "300px"}} alt="project"></img></div>
                 <div className="title-container">
                 <a  href={proj.siteUrl} target="_blank" rel="noreferrer"><p className="title hover-grow uppercase text-primary">{proj.title}</p></a>
-                <a href={proj.github} target="_blank" rel="noreferrer"><span className="subtitle hover-grow">View on Github</span></a>
+                <a href={proj.github} target="_blank" rel="noreferrer"><span className="subtitle hover-grow">View on <i className="fab text-primary fa-github"></i></span></a>
                 </div>
                 </div>
             ))}
@@ -20,7 +20,7 @@ const Project = (props) => {
                 <div className="card-image" id ="cardB"><img src={proj.imgUrl} style={{"width": "350px", "height": "300px"}} alt="project"></img></div>
                 <div className="title-container">
                 <a href={proj.siteUrl} target="_blank" rel="noreferrer"><p className="title hover-grow uppercase text-primary">{proj.title}</p></a>
-                <a href={proj.github} target="_blank" rel="noreferrer"><span className="subtitle hover-grow">View on Github</span></a>
+                <a href={proj.github} target="_blank" rel="noreferrer"><span className="subtitle hover-grow">View on <i className="fab text-primary fa-github"></i></span></a>
                 </div>
                 </div>
             ))}

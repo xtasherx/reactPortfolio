@@ -28,28 +28,28 @@ const About = () => {
                 <div className="row text-light">
                     <div className="col-3">
                         <div>
-                            <p className="lead font-bold">HTML5 <i className="fab fa-html5"></i>                            
+                            <p className="lead font-bold">HTML5 <i className="text-primary fab fa-html5"></i>                            
                             </p>
 
                         </div>
                     </div>
                     <div className="col-3">
                         <div>
-                            <p className="lead font-bold">CSS3 <i className="fab fa-css3"></i>
+                            <p className="lead font-bold">CSS3 <i className="text-primary fab fa-css3"></i>
                             </p>
                 
                         </div>
                     </div>
                     <div className="col-3">
                         <div>
-                            <p className="lead font-bold">JavaScript <i className="fab fa-js-square"></i>
+                            <p className="lead font-bold">JavaScript <i className="text-primary fab fa-js-square"></i>
                             </p>
 
                         </div>
                     </div>
                     <div className="col-3">
                         <div>
-                            <p className="lead font-bold">MongoDb <i className="fab fa-mdb"></i>
+                            <p className="lead font-bold">MongoDb <i className="text-primary fab fa-mdb"></i>
                             </p>
 
                         </div>
@@ -59,7 +59,7 @@ const About = () => {
                     <div className="col-3">
                         <div>
                             
-                            <p className="lead font-bold">Bootstrap <i className="fab fa-bootstrap"></i>
+                            <p className="lead font-bold">Bootstrap <i className="text-primary fab fa-bootstrap"></i>
                             </p>
 
                         </div>
@@ -68,7 +68,7 @@ const About = () => {
                         <div>
                             
 
-                            <p className="lead font-bold">Node.js <i className="fab fa-node-js"></i>
+                            <p className="lead font-bold">Node.js <i className="text-primary fab fa-node-js"></i>
 
                             </p>
 
@@ -76,7 +76,7 @@ const About = () => {
                     </div>
                     <div className="col-3">
                         <div>
-                            <p className="lead font-bold">MySQL <i className="fas fa-database"></i>
+                            <p className="lead font-bold">MySQL <i className="text-primary fas fa-database"></i>
          
                             </p>
 
@@ -87,7 +87,7 @@ const About = () => {
                     <div className="col-3">
                         <div>
                             
-                            <p className="lead font-bold">React <i className="fab fa-react"></i>
+                            <p className="lead font-bold">React <i className="text-primary fab fa-react"></i>
 
                             </p>
 
@@ -97,7 +97,7 @@ const About = () => {
                 <div className="space xlarge"></div>
                 <div className="">
                     <a href="assets/natasha-harrington-cv.pdf"><button className=" btn-primary btn-small hover-grow"><span className="text-light"></span>Download CV</button></a>
-                    <a href="#/work"><button className=" btn-small hover-grow">See My Work</button></a>
+                    <a href="#/work"><button className="btn-small hover-grow">See My Work</button></a>
                 </div>
             </div>
 

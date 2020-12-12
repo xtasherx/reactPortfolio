@@ -17,10 +17,10 @@ function App() {
         <Route exact path={["/", "/home"]}>
           <Home />
         </Route>
-        <Route exact path={["/", "/about"]}>
+        <Route exact path={ "/about"}>
           <About />
         </Route>
-        <Route exact path="/work">
+        <Route exact path={"/work"}>
           <Work />
         </Route>
         <Route exact path={"/contactme"}>

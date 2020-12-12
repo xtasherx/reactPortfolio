@@ -1,0 +1,9 @@
+.hero-img {
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 1),
+      rgba(10, 10, 10, 0.8),
+      rgba(83, 81, 81, 0.6)
+    ),
+    url("./teal.jpg");
+  background-size: cover;
+}

@@ -1,10 +1,9 @@
 import './App.css';
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
@@ -18,14 +17,14 @@ import About from "./About";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
     <div>
       <Header />
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path = "/about">
+        <Route  path = "/about">
           <About />
         </Route>
         <Route path="/work">

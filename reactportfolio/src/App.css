@@ -7,3 +7,35 @@
     url("./teal.jpg");
   background-size: cover;
 }
+
+#cardA #cardB::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  bottom: 0;
+}
+
+.gradientText {
+  background-color: #0f0f0f;
+  background-image: linear-gradient(
+    15deg,
+    rgb(34, 31, 31) 12%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.bigText {
+  font-size: 1.7em;
+  padding-right: 5px;
+}

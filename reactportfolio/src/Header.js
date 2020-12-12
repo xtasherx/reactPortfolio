@@ -9,10 +9,10 @@ const Header = () => {
             </div>
             <div className="header-nav">
                 <div className="nav-center">
-                <a className="m-1 text-primary uppercase hover-grow" href="/Home">Home</a>
-                <a className="m-1 text-primary uppercase hover-grow" href="/About">About Me</a>
-                <a className="m-1 text-primary uppercase hover-grow" href="/ContactMe">Contact Me</a>
-                <a className="m-1 text-primary uppercase hover-grow" href="/Work">My Work</a>
+                <a className="m-1 text-primary uppercase hover-grow"  href="/Home">Home</a>
+                <a className="m-1 text-primary uppercase hover-grow"  href="/About">About Me</a>
+                <a className="m-1 text-primary uppercase hover-grow"  href="/ContactMe">Contact Me</a>
+                <a className="m-1 text-primary uppercase hover-grow"  href="/Work">My Work</a>
             </div>
             </div>
         </div>

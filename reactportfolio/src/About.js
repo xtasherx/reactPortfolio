@@ -18,8 +18,8 @@ const About = () => {
                     <div className="col-8">
                         <p className="u-text-left my-2 text-light">
                            <span className="font-bold text-primary bigText">Hi, I'm Tasha!</span> A full stack web developer based out of San Antonio, Tx. I'm a science-fiction lover, a gamer, a late-night baker, and a dog mom. 
-                           I love problem solving and learning new things. I started coding as a hobby and it quickly turned into something I fell in love with. I have two years of experience with front end technologies and am currently 
-                            enrolled in a Full Stack Bootcamp through the University of Texas San Antonio to gain more experience with server-side technologies.
+                            I started coding as a hobby and fell in love. I love problem solving and learning new things. I have two years of experience with front end technologies and am currently 
+                            enrolled in a full stack bootcamp through the University of Texas San Antonio to gain more experience with server-side technologies.
                         </p>
                     </div>
                 </div>

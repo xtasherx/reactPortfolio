@@ -3,19 +3,19 @@ import Footer from "./Footer";
 import Project from "./Project";
 
 const dataOne = [{
-    imgUrl: "https://picsum.photos/350/300",
+    imgUrl: "./assets/weath.PNG",
     title: "Orange Weather",
     siteUrl: "https://xtasherx.github.io/weatherApp/",
     github: "https://github.com/xtasherx/weatherApp"
 },
 {
-    imgUrl: "https://picsum.photos/350/300",
+    imgUrl: "./assets/plan.PNG",
     title: "Day Planner",
     siteUrl: "https://xtasherx.github.io/dayPlanner/",
     github: "https://github.com/xtasherx/dayPlanner"
 },
 {
-    imgUrl: "https://picsum.photos/350/300",
+    imgUrl: "./assets/rap.PNG",
     title: "Rapsheet",
     siteUrl: "https://infinite-journey-37798.herokuapp.com/",
     github: "https://github.com/xtasherx/project2"
@@ -23,19 +23,19 @@ const dataOne = [{
 ]
 
 const dataTwo = [{
-    imgUrl: "https://picsum.photos/350/300",
+    imgUrl: "./assets/dci.PNG",
     title: "Dispatch Center",
     siteUrl: "http://dispatchcenter.net",
     github: "http://dispatchcenter.net"
 },
 {
-    imgUrl: "https://picsum.photos/350/300",
+    imgUrl: "./assets/read.PNG",
     title: "README Generator",
     siteUrl: "https://github.com/xtasherx/READMEGenerator",
     github: "https://github.com/xtasherx/READMEGenerator"
 },
 {
-    imgUrl: "https://picsum.photos/350/300",
+    imgUrl: "./assets/dish.PNG",
     title: "Flying Dish",
     siteUrl: "https://xtasherx.github.io/recipeApp/",
     github: "https://github.com/xtasherx/recipeApp"

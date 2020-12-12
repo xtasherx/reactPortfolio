@@ -1,8 +1,8 @@
 import './App.css';
 // import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { HashRouter, Route } from "react-router-dom";
-  
 import React, { Component } from 'react';
+
 import "cirrus-ui";
 import Home from "./Home";
 import ContactMe from "./ContactMe";
@@ -22,9 +22,7 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contactme" component={ContactMe} />
-        <Route path="/work" component={Work} />
-
-     
+        <Route path="/work" component={Work} />   
         </div>
       </HashRouter >
     );

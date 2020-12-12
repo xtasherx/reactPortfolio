@@ -1,5 +1,5 @@
 import React from "react";
-
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -9,10 +9,10 @@ const Header = () => {
             </div>
             <div className="header-nav">
                 <div className="nav-center">
-                <a className="m-1 text-primary uppercase hover-grow"  href="/">Home</a>
-                <a className="m-1 text-primary uppercase hover-grow"  href="/#/about">About Me</a>
-                <a className="m-1 text-primary uppercase hover-grow"  href="/#/contactme">Contact Me</a>
-                <a className="m-1 text-primary uppercase hover-grow"  href="/#/work">My Work</a>
+                <NavLink className="m-1 text-primary uppercase hover-grow"  to="/">Home</NavLink>
+                <NavLink className="m-1 text-primary uppercase hover-grow"  to="/#/about">About Me</NavLink>
+                <NavLink className="m-1 text-primary uppercase hover-grow"  to="/#/contactme">Contact Me</NavLink>
+                <NavLink className="m-1 text-primary uppercase hover-grow"  to="/#/work">My Work</NavLink>
             </div>
             </div>
         </div>

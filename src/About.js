@@ -96,8 +96,8 @@ const About = () => {
                 </div>
                 <div className="space xlarge"></div>
                 <div className="">
-                    <a href="#"><button className=" btn-primary btn-small hover-grow"><span className="text-light"></span>Download CV</button></a>
-                    <a href="/work"><button className=" btn-small hover-grow">See My Work</button></a>
+                    <a href="assets/natasha-harrington-cv.pdf"><button className=" btn-primary btn-small hover-grow"><span className="text-light"></span>Download CV</button></a>
+                    <a href="#/work"><button className=" btn-small hover-grow">See My Work</button></a>
                 </div>
             </div>
 
